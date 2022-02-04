@@ -13,6 +13,13 @@
 		8B876C4E27AD8CAC006BAC99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B876C4C27AD8CAC006BAC99 /* Main.storyboard */; };
 		8B876C5027AD8CAD006BAC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B876C4F27AD8CAD006BAC99 /* Assets.xcassets */; };
 		8B876C5327AD8CAD006BAC99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B876C5127AD8CAD006BAC99 /* LaunchScreen.storyboard */; };
+		8B876C5E27AD8D26006BAC99 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B876C5B27AD8D26006BAC99 /* HomeViewController.swift */; };
+		8B876C5F27AD8D26006BAC99 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B876C5C27AD8D26006BAC99 /* LoginViewController.swift */; };
+		8B876C6027AD8D26006BAC99 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B876C5D27AD8D26006BAC99 /* CatalogViewController.swift */; };
+		8B876C6627AD8D2C006BAC99 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B876C6227AD8D2C006BAC99 /* MenuCollectionViewCell.swift */; };
+		8B876C6727AD8D2C006BAC99 /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B876C6327AD8D2C006BAC99 /* MenuCollectionViewCell.xib */; };
+		8B876C6827AD8D2C006BAC99 /* CatalogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B876C6427AD8D2C006BAC99 /* CatalogCollectionViewCell.swift */; };
+		8B876C6927AD8D2C006BAC99 /* CatalogCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B876C6527AD8D2C006BAC99 /* CatalogCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		8B876C4F27AD8CAD006BAC99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B876C5227AD8CAD006BAC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B876C5427AD8CAD006BAC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B876C5B27AD8D26006BAC99 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8B876C5C27AD8D26006BAC99 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8B876C5D27AD8D26006BAC99 /* CatalogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		8B876C6227AD8D2C006BAC99 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B876C6327AD8D2C006BAC99 /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		8B876C6427AD8D2C006BAC99 /* CatalogCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B876C6527AD8D2C006BAC99 /* CatalogCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatalogCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,8 @@
 		8B876C4527AD8CAC006BAC99 /* mcdonald POS */ = {
 			isa = PBXGroup;
 			children = (
+				8B876C6127AD8D2C006BAC99 /* cells */,
+				8B876C5A27AD8D26006BAC99 /* controllers */,
 				8B876C4627AD8CAC006BAC99 /* AppDelegate.swift */,
 				8B876C4827AD8CAC006BAC99 /* SceneDelegate.swift */,
 				8B876C4A27AD8CAC006BAC99 /* ViewController.swift */,
@@ -65,6 +81,27 @@
 				8B876C5427AD8CAD006BAC99 /* Info.plist */,
 			);
 			path = "mcdonald POS";
+			sourceTree = "<group>";
+		};
+		8B876C5A27AD8D26006BAC99 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B876C5B27AD8D26006BAC99 /* HomeViewController.swift */,
+				8B876C5C27AD8D26006BAC99 /* LoginViewController.swift */,
+				8B876C5D27AD8D26006BAC99 /* CatalogViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		8B876C6127AD8D2C006BAC99 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				8B876C6227AD8D2C006BAC99 /* MenuCollectionViewCell.swift */,
+				8B876C6327AD8D2C006BAC99 /* MenuCollectionViewCell.xib */,
+				8B876C6427AD8D2C006BAC99 /* CatalogCollectionViewCell.swift */,
+				8B876C6527AD8D2C006BAC99 /* CatalogCollectionViewCell.xib */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +162,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B876C6927AD8D2C006BAC99 /* CatalogCollectionViewCell.xib in Resources */,
 				8B876C5327AD8CAD006BAC99 /* LaunchScreen.storyboard in Resources */,
 				8B876C5027AD8CAD006BAC99 /* Assets.xcassets in Resources */,
 				8B876C4E27AD8CAC006BAC99 /* Main.storyboard in Resources */,
+				8B876C6727AD8D2C006BAC99 /* MenuCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B876C6027AD8D26006BAC99 /* CatalogViewController.swift in Sources */,
+				8B876C6627AD8D2C006BAC99 /* MenuCollectionViewCell.swift in Sources */,
 				8B876C4B27AD8CAC006BAC99 /* ViewController.swift in Sources */,
 				8B876C4727AD8CAC006BAC99 /* AppDelegate.swift in Sources */,
+				8B876C6827AD8D2C006BAC99 /* CatalogCollectionViewCell.swift in Sources */,
 				8B876C4927AD8CAC006BAC99 /* SceneDelegate.swift in Sources */,
+				8B876C5F27AD8D26006BAC99 /* LoginViewController.swift in Sources */,
+				8B876C5E27AD8D26006BAC99 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,10 +336,11 @@
 				DEVELOPMENT_TEAM = 73JAV2DGVX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "mcdonald POS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "McDonald POS";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,7 +351,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -320,10 +365,11 @@
 				DEVELOPMENT_TEAM = 73JAV2DGVX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "mcdonald POS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "McDonald POS";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -334,7 +380,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

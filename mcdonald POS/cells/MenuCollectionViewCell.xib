@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MenuCollectionViewCellId" id="gTV-IL-0wX" customClass="MenuCollectionViewCell" customModule="macdonald_pos" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="144" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="144" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5uk-we-rLl">
+                        <rect key="frame" x="0.0" y="0.0" width="144" height="120"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="開心樂園餐" translatesAutoresizingMaskIntoConstraints="NO" id="eF2-LU-0yM">
+                                <rect key="frame" x="22" y="0.0" width="100" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="XdO-XR-Oko"/>
+                                    <constraint firstAttribute="width" constant="100" id="m5D-np-NfZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="開心樂園餐" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWf-cx-Wry">
+                                <rect key="frame" x="0.0" y="80" width="144" height="40"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="AWf-cx-Wry" firstAttribute="leading" secondItem="5uk-we-rLl" secondAttribute="leading" id="STv-wo-utd"/>
+                            <constraint firstAttribute="height" constant="120" id="Scu-8B-PO4"/>
+                            <constraint firstAttribute="trailing" secondItem="AWf-cx-Wry" secondAttribute="trailing" id="adO-iA-5xR"/>
+                            <constraint firstItem="eF2-LU-0yM" firstAttribute="centerX" secondItem="5uk-we-rLl" secondAttribute="centerX" id="bMu-V9-yms"/>
+                            <constraint firstItem="eF2-LU-0yM" firstAttribute="top" secondItem="5uk-we-rLl" secondAttribute="top" id="eZk-Ds-V8D"/>
+                            <constraint firstAttribute="width" constant="144" id="fay-Ul-VvZ"/>
+                            <constraint firstAttribute="bottom" secondItem="AWf-cx-Wry" secondAttribute="bottom" id="r2o-as-4tU"/>
+                            <constraint firstItem="AWf-cx-Wry" firstAttribute="top" secondItem="eF2-LU-0yM" secondAttribute="bottom" id="xjK-zI-QyL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="5uk-we-rLl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="W0a-ES-7ag"/>
+                <constraint firstAttribute="bottom" secondItem="5uk-we-rLl" secondAttribute="bottom" id="iPE-fo-7bH"/>
+                <constraint firstItem="5uk-we-rLl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="irV-yq-JHX"/>
+                <constraint firstAttribute="trailing" secondItem="5uk-we-rLl" secondAttribute="trailing" id="saE-jX-iTj"/>
+            </constraints>
+            <size key="customSize" width="144" height="120"/>
+            <connections>
+                <outlet property="cell_image" destination="eF2-LU-0yM" id="dEs-7f-I6A"/>
+                <outlet property="cell_text" destination="AWf-cx-Wry" id="R9e-hp-Zvh"/>
+            </connections>
+            <point key="canvasLocation" x="200.00000000000003" y="131.25"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="開心樂園餐" width="500" height="500"/>
+    </resources>
+</document>
