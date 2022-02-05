@@ -8,6 +8,8 @@
 import UIKit
 
 class MenuCollectionViewCell: UICollectionViewCell {
+    
+    public static let Iditifier = "MenuCollectionViewCellId"
 
     @IBOutlet weak var cell_image: UIImageView!
     @IBOutlet weak var cell_text: UILabel!

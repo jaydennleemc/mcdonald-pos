@@ -9,6 +9,8 @@ import UIKit
 
 class CatalogCollectionViewCell: UICollectionViewCell {
     
+    public static let Iditifier = "CatalogCollectionViewCellId"
+    
     @IBOutlet weak var cell_image: UIImageView!
     @IBOutlet weak var cell_text: UILabel!
 
