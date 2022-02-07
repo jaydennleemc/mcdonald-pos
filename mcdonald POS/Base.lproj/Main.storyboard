@@ -27,26 +27,26 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gyI-KM-Dyp">
-                                <rect key="frame" x="356.5" y="406" width="420" height="190"/>
+                                <rect key="frame" x="356.5" y="406" width="420" height="206"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Uesrname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O4e-tY-RJS">
-                                        <rect key="frame" x="16" y="16" width="388" height="42"/>
+                                        <rect key="frame" x="16" y="16" width="388" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="qr5-0r-Dij"/>
+                                            <constraint firstAttribute="height" constant="50" id="qr5-0r-Dij"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" textContentType="username"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vI1-EY-6M9">
-                                        <rect key="frame" x="16" y="74" width="388" height="42"/>
+                                        <rect key="frame" x="16" y="82" width="388" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="YLM-Sc-Ey7"/>
+                                            <constraint firstAttribute="height" constant="50" id="YLM-Sc-Ey7"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="go" textContentType="password"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1C-8g-xQx">
-                                        <rect key="frame" x="160" y="140" width="100" height="38"/>
+                                        <rect key="frame" x="160" y="156" width="100" height="38"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="38" id="84P-8X-g8F"/>
                                             <constraint firstAttribute="width" constant="100" id="MR3-O1-gQF"/>
@@ -132,6 +132,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bhW-K3-mPk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1280" y="272"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="SDp-ZZ-gDC">
+            <objects>
+                <viewController storyboardIdentifier="SettingsViewController" id="f1L-E3-UW4" customClass="SettingsViewController" customModule="mcdonald_POS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F7e-DN-Q6v">
+                        <rect key="frame" x="0.0" y="0.0" width="1133" height="744"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yTM-Af-yi0">
+                                <rect key="frame" x="0.0" y="24" width="1133" height="50"/>
+                                <items>
+                                    <navigationItem title="Settings" id="YBB-li-NIE">
+                                        <barButtonItem key="rightBarButtonItem" title="Done" id="sGS-9R-QHo">
+                                            <connections>
+                                                <action selector="doneOnPress:" destination="f1L-E3-UW4" id="FdL-X0-Emt"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="02J-Q6-yjF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yTM-Af-yi0" firstAttribute="leading" secondItem="F7e-DN-Q6v" secondAttribute="leading" id="3XA-2T-UwA"/>
+                            <constraint firstItem="yTM-Af-yi0" firstAttribute="top" secondItem="02J-Q6-yjF" secondAttribute="top" id="JBf-By-7fQ"/>
+                            <constraint firstItem="02J-Q6-yjF" firstAttribute="trailing" secondItem="yTM-Af-yi0" secondAttribute="trailing" id="qfG-OT-KCW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KZp-2E-adi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AR7-jN-xqz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2031" y="285"/>
         </scene>
         <!--Catalog View Controller-->
         <scene sceneID="Xjb-H5-t0h">
