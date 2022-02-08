@@ -34,6 +34,7 @@ class LoginViewController: UIViewController {
 
         do {
             if let user = try sqlManager.loginUser(username: usernameText, password: passwordText.md5Value) {
+                debugPrint(user)
                 if (user.username == usernameText) {
                     let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController
                     vc?.modalPresentationStyle = .fullScreen

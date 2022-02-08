@@ -12,11 +12,13 @@ class CatalogViewController: UIViewController {
     @IBOutlet weak var catalogCollectionView: UICollectionView!
     @IBOutlet weak var menuCollectionView: UICollectionView!
     
-    let data = [1,2,3,4,5,6,7,8]
+    private var catalogs = Array<Catalog>()
+    private var foods = Array<Food>()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initCollectionView()
+        self.fetchCatalogs()
     }
     
     private func initCollectionView() {
@@ -29,22 +31,47 @@ class CatalogViewController: UIViewController {
         self.menuCollectionView.delegate = self
         self.menuCollectionView.dataSource = self
     }
+    
+    private func fetchCatalogs() {
+        self.catalogs = try! SQLManager.sharedInstance.fetchCatalogs()
+        self.catalogs[0].selected = true
+        
+        self.foods =  try! SQLManager.sharedInstance.fetchFoods(catalogId: self.catalogs[0].id)
+        
+        self.catalogCollectionView.reloadData()
+    }
 }
 
 extension CatalogViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return data.count
+        if (collectionView == self.catalogCollectionView) {
+            return catalogs.count
+        }
+        
+        if (collectionView == self.menuCollectionView) {
+            return foods.count
+        }
+        return 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         // handle catalog collection view data
         if collectionView == catalogCollectionView {
             let cell = catalogCollectionView.dequeueReusableCell(withReuseIdentifier: "CatalogCollectionViewCellId", for: indexPath) as! CatalogCollectionViewCell
+            let item = catalogs[indexPath.row]
+            cell.cell_text.text = item.name_zh
+            cell.cell_image.image = UIImage(named: item.image_zh)
+            cell.isSelected = item.selected
+            cell.toggleSelected()
             return cell
         }
         // handle menu collection view data
         if collectionView == menuCollectionView {
             let cell = menuCollectionView.dequeueReusableCell(withReuseIdentifier: "MenuCollectionViewCellId", for: indexPath) as! MenuCollectionViewCell
+            let item = foods[indexPath.row]
+            cell.cell_text.text = item.name_zh
+            cell.cell_image.image = UIImage(named: item.image_zh)
+            cell.cell_price.text = "\(item.price)"
             return cell
         }
         return UICollectionViewCell()
@@ -53,8 +80,13 @@ extension CatalogViewController: UICollectionViewDelegate, UICollectionViewDataS
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         // handle catalog collection view did select action
         if collectionView == catalogCollectionView {
-            let cell = catalogCollectionView.cellForItem(at: indexPath) as! CatalogCollectionViewCell
-            cell.toggleSelected()
+            for i in 0..<catalogs.count {
+                catalogs[i].selected = false
+            }
+            catalogs[indexPath.row].selected = true
+            self.foods = try! SQLManager.sharedInstance.fetchFoods(catalogId: catalogs[indexPath.row].id)
+            self.catalogCollectionView.reloadData()
+            self.menuCollectionView.reloadData()
         }
         
         // handle menu collection view did select action

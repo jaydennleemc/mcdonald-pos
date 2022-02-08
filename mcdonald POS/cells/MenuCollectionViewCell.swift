@@ -13,6 +13,7 @@ class MenuCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var cell_image: UIImageView!
     @IBOutlet weak var cell_text: UILabel!
+    @IBOutlet weak var cell_price: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

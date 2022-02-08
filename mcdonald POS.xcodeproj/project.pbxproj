@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7C3D9027B14DE200246CD3 /* catalogs.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B7C3D8F27B14DE200246CD3 /* catalogs.json */; };
+		8B7C3D9227B14E9B00246CD3 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C3D9127B14E9B00246CD3 /* Catalog.swift */; };
+		8B7C3D9427B269FE00246CD3 /* foods.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B7C3D9327B269FE00246CD3 /* foods.json */; };
+		8B7C3D9627B26C1B00246CD3 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C3D9527B26C1B00246CD3 /* Food.swift */; };
 		8B876C4727AD8CAC006BAC99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B876C4627AD8CAC006BAC99 /* AppDelegate.swift */; };
 		8B876C4927AD8CAC006BAC99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B876C4827AD8CAC006BAC99 /* SceneDelegate.swift */; };
 		8B876C4E27AD8CAC006BAC99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B876C4C27AD8CAC006BAC99 /* Main.storyboard */; };
@@ -35,6 +39,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B7C3D8F27B14DE200246CD3 /* catalogs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = catalogs.json; sourceTree = "<group>"; };
+		8B7C3D9127B14E9B00246CD3 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		8B7C3D9327B269FE00246CD3 /* foods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = foods.json; sourceTree = "<group>"; };
+		8B7C3D9527B26C1B00246CD3 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		8B876C4327AD8CAC006BAC99 /* mcdonald POS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mcdonald POS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B876C4627AD8CAC006BAC99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B876C4827AD8CAC006BAC99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +156,8 @@
 		8B876C7C27AE381C006BAC99 /* mock */ = {
 			isa = PBXGroup;
 			children = (
+				8B7C3D8F27B14DE200246CD3 /* catalogs.json */,
+				8B7C3D9327B269FE00246CD3 /* foods.json */,
 				8BAAA7C327AF609000F26D9A /* users.json */,
 			);
 			path = mock;
@@ -157,6 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				8BAAA7C927B0F7B100F26D9A /* User.swift */,
+				8B7C3D9127B14E9B00246CD3 /* Catalog.swift */,
+				8B7C3D9527B26C1B00246CD3 /* Food.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -232,6 +244,8 @@
 				8B876C6927AD8D2C006BAC99 /* CatalogCollectionViewCell.xib in Resources */,
 				8B876C5327AD8CAD006BAC99 /* LaunchScreen.storyboard in Resources */,
 				8B876C5027AD8CAD006BAC99 /* Assets.xcassets in Resources */,
+				8B7C3D9427B269FE00246CD3 /* foods.json in Resources */,
+				8B7C3D9027B14DE200246CD3 /* catalogs.json in Resources */,
 				8B876C7927AE2B2C006BAC99 /* CashierTableViewCell.xib in Resources */,
 				8BAAA7C427AF609000F26D9A /* users.json in Resources */,
 				8B876C4E27AD8CAC006BAC99 /* Main.storyboard in Resources */,
@@ -249,6 +263,7 @@
 				8B876C7327AD932E006BAC99 /* SQL_Data.swift in Sources */,
 				8B876C6027AD8D26006BAC99 /* CatalogViewController.swift in Sources */,
 				8B876C7127AD9305006BAC99 /* SQL_Tables.swift in Sources */,
+				8B7C3D9227B14E9B00246CD3 /* Catalog.swift in Sources */,
 				8B876C6627AD8D2C006BAC99 /* MenuCollectionViewCell.swift in Sources */,
 				8B876C6F27AD8F50006BAC99 /* SQL_Manager.swift in Sources */,
 				8B876C7527AE236B006BAC99 /* CashierViewController.swift in Sources */,
@@ -256,6 +271,7 @@
 				8B876C7827AE2B2C006BAC99 /* CashierTableViewCell.swift in Sources */,
 				8BAAA7CA27B0F7B100F26D9A /* User.swift in Sources */,
 				8B876C6827AD8D2C006BAC99 /* CatalogCollectionViewCell.swift in Sources */,
+				8B7C3D9627B26C1B00246CD3 /* Food.swift in Sources */,
 				8B876C7E27AE3A10006BAC99 /* Extension.swift in Sources */,
 				8B876C4927AD8CAC006BAC99 /* SceneDelegate.swift in Sources */,
 				8B876C7B27AE3610006BAC99 /* SettingsViewController.swift in Sources */,

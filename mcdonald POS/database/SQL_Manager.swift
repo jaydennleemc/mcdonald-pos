@@ -9,6 +9,7 @@ import Foundation
 import SQLite
 
 class SQLManager{
+    static let sharedInstance = SQLManager()
     
     private var sqlitePath :String? = nil
     private var sqlDB :Connection? = nil
@@ -16,11 +17,6 @@ class SQLManager{
     init() {
         self.request_access()
         self.connect_sql()
-        do {
-            try SQLTables.create_user_table(db: sqlDB!)
-        }catch {
-            debugPrint("sql table error...")
-        }
     }
     
     private func request_access() {
@@ -39,6 +35,17 @@ class SQLManager{
         return true
     }
     
+    func create_tables() {
+        do {
+            try SQLTables.create_user_table(db: sqlDB!)
+            try SQLTables.create_catalog_table(db: sqlDB!)
+            try SQLTables.create_food_table(db: sqlDB!)
+            
+        }catch {
+            debugPrint("sql table error...")
+        }
+    }
+    
     func fetchUsers() throws -> Array<Any>{
         let users = Table("users")
         var data = Array<Any>()
@@ -49,9 +56,9 @@ class SQLManager{
     }
     
     func loginUser(username: String, password: String) throws  -> User? {
-        let statement = try sqlDB!.prepare("select * from users where username='\(username)' and password='\(password)' limit 1")
+        let sql = try sqlDB!.prepare("select * from user where username='\(username)' and password='\(password)' limit 1")
         var users = Array<User>()
-        for i in statement {
+        for i in sql {
             let username = i[1] as! String
             let password = i[2] as! String
             let role = i[3] as! String
@@ -59,10 +66,54 @@ class SQLManager{
             let time = lastTime.toDate()
             users.append(User(username: username, password: password, role: role, lastTime: time!))
         }
-        if users.count > 1 {
+        if users.count != 0 {
             return users[0]
         }
         return nil
     }
     
+    
+    func fetchCatalogs() throws -> Array<Catalog>{
+        let sql = try sqlDB!.prepare("select id, name_zh, name_en, image_zh, image_en, position from catalog order by position")
+        var catalogs = Array<Catalog>()
+        for i in sql {
+            let id = i[0] as! Int64
+            let name_zh = i[1] as! String
+            let name_en = i[2] as! String
+            let image_zh = i[3] as! String
+            let image_en = i[4] as! String
+            let position = i[5] as! Int64
+            catalogs.append(Catalog(id: id, name_zh: name_zh, name_en: name_en, image_zh: image_zh, image_en: image_en, position: position))
+        }
+        return catalogs
+    }
+    
+    func find_catalog_id(name: String) -> Int64? {
+        if let sql = try? sqlDB!.prepare("select id from catalog where name_zh='\(name)'") {
+            for i in sql {
+                return i[0] as! Int64
+            }
+            return 0
+        }else {
+            return nil
+        }
+    }
+    
+    
+    func fetchFoods(catalogId: Int64) throws -> Array<Food> {
+        let sql = try sqlDB!.prepare("select * from food where catalogId='\(catalogId)'")
+        var foods = Array<Food>()
+        for i in sql {
+            let id = i[0] as! Int64
+            let catalogId = i[1] as! Int64
+            let name_zh = i[2] as! String
+            let name_en = i[3] as! String
+            let image_zh = i[4] as! String
+            let image_en = i[5] as! String
+            let price = i[6] as! Float64
+            let meal_price = i[7] as! Float64
+            foods.append(Food(id: id, catalogId: catalogId, name_zh: name_zh, name_en: name_en, image_zh: image_zh, image_en: image_en, price: price, meal_price: meal_price))
+        }
+        return foods
+    }
 }

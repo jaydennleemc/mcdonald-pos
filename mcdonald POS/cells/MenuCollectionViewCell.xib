@@ -5,44 +5,57 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MenuCollectionViewCellId" id="gTV-IL-0wX" customClass="MenuCollectionViewCell" customModule="mcdonald_POS" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="144" height="120"/>
+            <rect key="frame" x="0.0" y="0.0" width="144" height="140"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="144" height="120"/>
+                <rect key="frame" x="0.0" y="0.0" width="144" height="140"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5uk-we-rLl">
-                        <rect key="frame" x="0.0" y="0.0" width="144" height="120"/>
+                        <rect key="frame" x="0.0" y="0.0" width="144" height="140"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="開心樂園餐" translatesAutoresizingMaskIntoConstraints="NO" id="eF2-LU-0yM">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="開心樂園餐" translatesAutoresizingMaskIntoConstraints="NO" id="eF2-LU-0yM">
                                 <rect key="frame" x="22" y="0.0" width="100" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="XdO-XR-Oko"/>
                                     <constraint firstAttribute="width" constant="100" id="m5D-np-NfZ"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWf-cx-Wry">
-                                <rect key="frame" x="0.0" y="80" width="144" height="40"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="--" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWf-cx-Wry">
+                                <rect key="frame" x="8" y="88" width="128" height="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHB-tj-b57">
+                                <rect key="frame" x="47" y="110" width="50" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="LIa-vk-fpp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" systemColor="systemOrangeColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="AWf-cx-Wry" firstAttribute="leading" secondItem="5uk-we-rLl" secondAttribute="leading" id="STv-wo-utd"/>
-                            <constraint firstAttribute="height" constant="120" id="Scu-8B-PO4"/>
-                            <constraint firstAttribute="trailing" secondItem="AWf-cx-Wry" secondAttribute="trailing" id="adO-iA-5xR"/>
+                            <constraint firstItem="AWf-cx-Wry" firstAttribute="leading" secondItem="5uk-we-rLl" secondAttribute="leading" constant="8" id="394-0Q-YG9"/>
+                            <constraint firstItem="AWf-cx-Wry" firstAttribute="top" secondItem="eF2-LU-0yM" secondAttribute="bottom" constant="8" id="FDU-rj-E4p"/>
+                            <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="qHB-tj-b57" secondAttribute="bottom" constant="2" id="HcC-rg-JjD"/>
+                            <constraint firstAttribute="height" constant="140" id="Scu-8B-PO4"/>
+                            <constraint firstAttribute="trailing" secondItem="AWf-cx-Wry" secondAttribute="trailing" constant="8" id="TdF-4F-kxz"/>
                             <constraint firstItem="eF2-LU-0yM" firstAttribute="centerX" secondItem="5uk-we-rLl" secondAttribute="centerX" id="bMu-V9-yms"/>
                             <constraint firstItem="eF2-LU-0yM" firstAttribute="top" secondItem="5uk-we-rLl" secondAttribute="top" id="eZk-Ds-V8D"/>
                             <constraint firstAttribute="width" constant="144" id="fay-Ul-VvZ"/>
-                            <constraint firstAttribute="bottom" secondItem="AWf-cx-Wry" secondAttribute="bottom" id="r2o-as-4tU"/>
-                            <constraint firstItem="AWf-cx-Wry" firstAttribute="top" secondItem="eF2-LU-0yM" secondAttribute="bottom" id="xjK-zI-QyL"/>
+                            <constraint firstItem="qHB-tj-b57" firstAttribute="centerX" secondItem="5uk-we-rLl" secondAttribute="centerX" id="lpt-0k-RP2"/>
+                            <constraint firstItem="qHB-tj-b57" firstAttribute="top" secondItem="AWf-cx-Wry" secondAttribute="bottom" constant="4" id="lxe-t0-kYv"/>
+                            <constraint firstItem="AWf-cx-Wry" firstAttribute="centerX" secondItem="5uk-we-rLl" secondAttribute="centerX" id="whP-uE-3s6"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -54,15 +67,19 @@
                 <constraint firstItem="5uk-we-rLl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="irV-yq-JHX"/>
                 <constraint firstAttribute="trailing" secondItem="5uk-we-rLl" secondAttribute="trailing" id="saE-jX-iTj"/>
             </constraints>
-            <size key="customSize" width="144" height="120"/>
+            <size key="customSize" width="144" height="134"/>
             <connections>
                 <outlet property="cell_image" destination="eF2-LU-0yM" id="dEs-7f-I6A"/>
+                <outlet property="cell_price" destination="qHB-tj-b57" id="tKR-Xz-B1S"/>
                 <outlet property="cell_text" destination="AWf-cx-Wry" id="R9e-hp-Zvh"/>
             </connections>
-            <point key="canvasLocation" x="200.00000000000003" y="131.25"/>
+            <point key="canvasLocation" x="200.00000000000003" y="135.9375"/>
         </collectionViewCell>
     </objects>
     <resources>
         <image name="開心樂園餐" width="500" height="500"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

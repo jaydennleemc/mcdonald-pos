@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // create local sql database and insert mock data
-        
+        SQLManager.sharedInstance.create_tables()
         
         return true
     }

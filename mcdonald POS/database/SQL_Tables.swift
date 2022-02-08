@@ -11,7 +11,7 @@ import SQLite
 class SQLTables {
     
     public static func create_user_table(db: Connection) throws {
-        let users = Table("users")
+        let users = Table("user")
         let id = Expression<Int64>("id")
         let username = Expression<String>("username")
         let password = Expression<String>("password")
@@ -42,6 +42,7 @@ class SQLTables {
         let name_en = Expression<String>("name_en")
         let image_zh = Expression<String>("image_zh")
         let image_en = Expression<String>("image_en")
+        let position = Expression<Int>("position")
         do {
             try db.scalar(catalog.exists)
             debugPrint("catalog table exsits")
@@ -51,7 +52,42 @@ class SQLTables {
                 t.column(id, primaryKey: .autoincrement)
                 t.column(name_zh)
                 t.column(name_en)
+                t.column(image_zh)
+                t.column(image_en)
+                t.column(position)
             })
+            // Insert mock catalogs
+            try SQLData.insertCatalog(db: db)
+        }
+    }
+    
+    public static func create_food_table(db: Connection) throws {
+        let food = Table("food")
+        let id = Expression<Int64>("id")
+        let catalogId = Expression<Int64>("catalogId")
+        let name_zh = Expression<String>("name_zh")
+        let name_en = Expression<String>("name_en")
+        let image_zh = Expression<String>("image_zh")
+        let image_en = Expression<String>("image_en")
+        let price = Expression<Float64>("price")
+        let meal_price = Expression<Float64>("meal_price")
+        do {
+            try db.scalar(food.exists)
+            debugPrint("food table exsits")
+        }catch {
+            debugPrint("created food table")
+            try db.run(food.create { t in
+                t.column(id, primaryKey: .autoincrement)
+                t.column(catalogId)
+                t.column(name_zh)
+                t.column(name_en)
+                t.column(image_zh)
+                t.column(image_en)
+                t.column(price)
+                t.column(meal_price)
+            })
+            // Insert mock foods
+            try SQLData.insertFood(db: db)
         }
     }
     
@@ -65,5 +101,8 @@ class SQLTables {
         try db.run(catalog.drop(ifExists: true))
     }
     
-    
+    public static func drop_food_table(db: Connection) throws {
+        let food = Table("food")
+        try db.run(food.drop(ifExists: true))
+    }
 }
