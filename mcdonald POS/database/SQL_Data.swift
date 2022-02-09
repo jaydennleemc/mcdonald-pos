@@ -71,9 +71,15 @@ class SQLData {
                     let image_en = json["image_en"].string!
                     let price = json["price"].float!
                     let meal_price = json["meal_price"].float!
+                    let is_breakfasts = json["is_breakfasts"].bool!
+                    let is_set_meal = json["is_set_meal"].bool!
+                    let is_set_option = json["is_set_option"].bool!
+                    let is_set_drink = json["is_set_drink"].bool!
                     
                     let insert = """
-                        INSERT INTO "food" ("catalogId", "name_zh", "name_en", "image_zh", "image_en", "price", "meal_price") VALUES ('\(catalogId)', '\(name_zh)', '\(name_en)', '\(image_zh)', '\(image_en)', '\(price)', '\(meal_price)')
+                        INSERT INTO "food"
+                        ("catalogId", "name_zh", "name_en", "image_zh", "image_en", "price", "meal_price", "is_breakfasts", "is_set_meal", "is_set_option", "is_set_drink")
+                        VALUES ('\(catalogId)', '\(name_zh)', '\(name_en)', '\(image_zh)', '\(image_en)', '\(price)', '\(meal_price)', '\(is_breakfasts)', '\(is_set_meal)', '\(is_set_option)', '\(is_set_drink)')
                     """
                     try db.run(insert)
                     debugPrint("insert food success")

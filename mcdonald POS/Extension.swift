@@ -21,6 +21,18 @@ extension String {
         let date = dateFormatter.date(from: self)
         return date
     }
+    
+    var bool: Bool? {
+        let lowercaseSelf = self.lowercased()
+        switch lowercaseSelf {
+        case "true", "yes", "1":
+            return true
+        case "false", "no", "0":
+            return false
+        default:
+            return nil
+        }
+    }
 }
 
 extension UIAlertController {

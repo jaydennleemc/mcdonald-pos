@@ -71,6 +71,11 @@ class SQLTables {
         let image_en = Expression<String>("image_en")
         let price = Expression<Float64>("price")
         let meal_price = Expression<Float64>("meal_price")
+        let is_breakfasts = Expression<Bool>("is_breakfasts")
+        let is_set_meal = Expression<Bool>("is_set_meal")
+        let is_set_option = Expression<Bool>("is_set_option")
+        let is_set_drink = Expression<Bool>("is_set_drink")
+        
         do {
             try db.scalar(food.exists)
             debugPrint("food table exsits")
@@ -85,6 +90,10 @@ class SQLTables {
                 t.column(image_en)
                 t.column(price)
                 t.column(meal_price)
+                t.column(is_breakfasts, defaultValue: false)
+                t.column(is_set_meal, defaultValue: false)
+                t.column(is_set_option, defaultValue: false)
+                t.column(is_set_drink, defaultValue: false)
             })
             // Insert mock foods
             try SQLData.insertFood(db: db)

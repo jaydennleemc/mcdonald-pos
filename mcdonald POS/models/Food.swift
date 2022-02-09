@@ -16,5 +16,9 @@ struct Food {
     var image_en: String
     var price: Float64
     var meal_price: Float64
+    var is_breakfasts: Bool
+    var is_set_meal: Bool
+    var is_set_option: Bool
+    var is_set_drink: Bool
     var selected: Bool = false
 }

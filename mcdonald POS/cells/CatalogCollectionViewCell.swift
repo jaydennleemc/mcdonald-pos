@@ -11,6 +11,7 @@ class CatalogCollectionViewCell: UICollectionViewCell {
     
     public static let Iditifier = "CatalogCollectionViewCellId"
     
+    @IBOutlet weak var container: UIView!
     @IBOutlet weak var cell_image: UIImageView!
     @IBOutlet weak var cell_text: UILabel!
 
@@ -21,9 +22,11 @@ class CatalogCollectionViewCell: UICollectionViewCell {
     
     func toggleSelected (){
         if (isSelected){
-            backgroundColor = UIColor.red
+            self.container.layer.cornerRadius = 10
+            self.container.clipsToBounds = true
+            self.container.backgroundColor = UIColor(named: "theme_color")
         }else {
-            backgroundColor = UIColor.white
+            self.container.backgroundColor = UIColor.clear
         }
     }
 

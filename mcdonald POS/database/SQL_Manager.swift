@@ -112,7 +112,63 @@ class SQLManager{
             let image_en = i[5] as! String
             let price = i[6] as! Float64
             let meal_price = i[7] as! Float64
-            foods.append(Food(id: id, catalogId: catalogId, name_zh: name_zh, name_en: name_en, image_zh: image_zh, image_en: image_en, price: price, meal_price: meal_price))
+            
+            let is_breakfasts = (i[8] as! String).bool!
+            let is_set_meal = (i[9] as! String).bool!
+            let is_set_option = (i[10] as! String).bool!
+            let is_set_drink = (i[11] as! String).bool!
+            foods.append(
+                Food(id: id, catalogId: catalogId, name_zh: name_zh, name_en: name_en, image_zh: image_zh, image_en: image_en, price: price, meal_price: meal_price, is_breakfasts: is_breakfasts, is_set_meal: is_set_meal, is_set_option: is_set_option, is_set_drink: true)
+            )
+        }
+        return foods
+    }
+    
+    
+    func fetchFoodOptions(is_breakfasts: Bool) throws -> Array<Food> {
+        let sql = try sqlDB!.prepare("select * from food where is_breakfasts='\(is_breakfasts)' and is_set_option='true'")
+        var foods = Array<Food>()
+        for i in sql {
+            let id = i[0] as! Int64
+            let catalogId = i[1] as! Int64
+            let name_zh = i[2] as! String
+            let name_en = i[3] as! String
+            let image_zh = i[4] as! String
+            let image_en = i[5] as! String
+            let price = i[6] as! Float64
+            let meal_price = i[7] as! Float64
+            
+            let is_breakfasts = (i[8] as! String).bool!
+            let is_set_meal = (i[9] as! String).bool!
+            let is_set_option = (i[10] as! String).bool!
+            let is_set_drink = (i[11] as! String).bool!
+            foods.append(
+                Food(id: id, catalogId: catalogId, name_zh: name_zh, name_en: name_en, image_zh: image_zh, image_en: image_en, price: price, meal_price: meal_price, is_breakfasts: is_breakfasts, is_set_meal: is_set_meal, is_set_option: is_set_option, is_set_drink: true)
+            )
+        }
+        return foods
+    }
+    
+    func fetchDrinkOptions() throws -> Array<Food> {
+        let sql = try sqlDB!.prepare("select * from food where is_set_drink='true'")
+        var foods = Array<Food>()
+        for i in sql {
+            let id = i[0] as! Int64
+            let catalogId = i[1] as! Int64
+            let name_zh = i[2] as! String
+            let name_en = i[3] as! String
+            let image_zh = i[4] as! String
+            let image_en = i[5] as! String
+            let price = i[6] as! Float64
+            let meal_price = i[7] as! Float64
+            
+            let is_breakfasts = (i[8] as! String).bool!
+            let is_set_meal = (i[9] as! String).bool!
+            let is_set_option = (i[10] as! String).bool!
+            let is_set_drink = (i[11] as! String).bool!
+            foods.append(
+                Food(id: id, catalogId: catalogId, name_zh: name_zh, name_en: name_en, image_zh: image_zh, image_en: image_en, price: price, meal_price: meal_price, is_breakfasts: is_breakfasts, is_set_meal: is_set_meal, is_set_option: is_set_option, is_set_drink: true)
+            )
         }
         return foods
     }

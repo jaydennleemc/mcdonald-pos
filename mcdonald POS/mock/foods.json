@@ -2,1189 +2,1849 @@
     {
         "image_zh": "開心樂園餐® - 上午11時前.png",
         "name_zh": "開心樂園餐® - 上午11時前",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "開心樂園餐",
         "name_en": "開心樂園餐® - 上午11時前",
-        "image_en": "開心樂園餐® - 上午11時前.png"
+        "image_en": "開心樂園餐® - 上午11時前.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "開心樂園餐® - 上午11時後.png",
         "name_zh": "開心樂園餐® - 上午11時後",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "開心樂園餐",
         "name_en": "開心樂園餐® - 上午11時後",
-        "image_en": "開心樂園餐® - 上午11時後.png"
+        "image_en": "開心樂園餐® - 上午11時後.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "新地筒.png",
         "name_zh": "新地筒",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "甜品",
         "name_en": "新地筒",
-        "image_en": "新地筒.png"
+        "image_en": "新地筒.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "麥旋風.png",
         "name_zh": "麥旋風",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "甜品",
         "name_en": "麥旋風",
-        "image_en": "麥旋風.png"
+        "image_en": "麥旋風.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "新地.png",
         "name_zh": "新地",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "甜品",
         "name_en": "新地",
-        "image_en": "新地.png"
+        "image_en": "新地.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "蘋果批.png",
         "name_zh": "蘋果批",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "甜品",
         "name_en": "蘋果批",
-        "image_en": "蘋果批.png"
+        "image_en": "蘋果批.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "奶昔.png",
         "name_zh": "奶昔",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "甜品",
         "name_en": "奶昔",
-        "image_en": "奶昔.png"
+        "image_en": "奶昔.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "麥樂雞®(6-9件).png",
         "name_zh": "麥樂雞®(6-9件)",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "其他",
         "name_en": "麥樂雞®(6-9件)",
-        "image_en": "麥樂雞®(6-9件).png"
+        "image_en": "麥樂雞®(6-9件).png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "脆香雞翼(2-4件).png",
         "name_zh": "脆香雞翼(2-4件)",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "其他",
         "name_en": "脆香雞翼(2-4件)",
-        "image_en": "脆香雞翼(2-4件).png"
+        "image_en": "脆香雞翼(2-4件).png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "薯條.png",
         "name_zh": "薯條",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "其他",
         "name_en": "薯條",
-        "image_en": "薯條.png"
+        "image_en": "薯條.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": true,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "脆薯餅.png",
         "name_zh": "脆薯餅",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "其他",
         "name_en": "脆薯餅",
-        "image_en": "脆薯餅.png"
+        "image_en": "脆薯餅.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": false,
+        "is_set_option": true,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "粒粒粟米杯(珍寶).png",
         "name_zh": "粒粒粟米杯(珍寶)",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "其他",
         "name_en": "粒粒粟米杯(珍寶)",
-        "image_en": "粒粒粟米杯(珍寶).png"
+        "image_en": "粒粒粟米杯(珍寶).png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": true,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "脆香雞翼(4件).png",
         "name_zh": "脆香雞翼(4件)",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值套餐",
         "name_en": "脆香雞翼(4件)",
-        "image_en": "脆香雞翼(4件).png"
+        "image_en": "脆香雞翼(4件).png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凱撒沙律.png",
         "name_zh": "凱撒沙律",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值套餐",
         "name_en": "凱撒沙律",
-        "image_en": "凱撒沙律.png"
+        "image_en": "凱撒沙律.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "脆辣雞腿飽.png",
         "name_zh": "脆辣雞腿飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值套餐",
         "name_en": "脆辣雞腿飽",
-        "image_en": "脆辣雞腿飽.png"
+        "image_en": "脆辣雞腿飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "雙層芝士孖堡™.png",
         "name_zh": "雙層芝士孖堡™",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值套餐",
         "name_en": "雙層芝士孖堡™",
-        "image_en": "雙層芝士孖堡™.png"
+        "image_en": "雙層芝士孖堡™.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "巨無霸®.png",
         "name_zh": "巨無霸®",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值套餐",
         "name_en": "巨無霸®",
-        "image_en": "巨無霸®.png"
+        "image_en": "巨無霸®.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "板燒雞腿飽.png",
         "name_zh": "板燒雞腿飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值套餐",
         "name_en": "板燒雞腿飽",
-        "image_en": "板燒雞腿飽.png"
+        "image_en": "板燒雞腿飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "蜜糖BBQ麥炸雞(2件).png",
         "name_zh": "蜜糖BBQ麥炸雞(2件)",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值套餐",
         "name_en": "蜜糖BBQ麥炸雞(2件)",
-        "image_en": "蜜糖BBQ麥炸雞(2件).png"
+        "image_en": "蜜糖BBQ麥炸雞(2件).png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "麥樂雞® (6-9件).png",
         "name_zh": "麥樂雞® (6-9件)",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值套餐",
         "name_en": "麥樂雞® (6-9件)",
-        "image_en": "麥樂雞® (6-9件).png"
+        "image_en": "麥樂雞® (6-9件).png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "麥炸雞(原味)(2件).png",
         "name_zh": "麥炸雞(原味)(2件)",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值套餐",
         "name_en": "麥炸雞(原味)(2件)",
-        "image_en": "麥炸雞(原味)(2件).png"
+        "image_en": "麥炸雞(原味)(2件).png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "魚柳飽.png",
         "name_zh": "魚柳飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值套餐",
         "name_en": "魚柳飽",
-        "image_en": "魚柳飽.png"
+        "image_en": "魚柳飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "豬柳蛋漢堡™.png",
         "name_zh": "豬柳蛋漢堡™",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值套餐",
         "name_en": "豬柳蛋漢堡™",
-        "image_en": "豬柳蛋漢堡™.png"
+        "image_en": "豬柳蛋漢堡™.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "飛雪®礦物質水.png",
         "name_zh": "飛雪®礦物質水",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "飛雪®礦物質水",
-        "image_en": "飛雪®礦物質水.png"
+        "image_en": "飛雪®礦物質水.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "鮮檸可口可樂.png",
         "name_zh": "鮮檸可口可樂",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "鮮檸可口可樂",
-        "image_en": "鮮檸可口可樂.png"
+        "image_en": "鮮檸可口可樂.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "優質即磨咖啡.png",
         "name_zh": "優質即磨咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "優質即磨咖啡",
-        "image_en": "優質即磨咖啡.png"
+        "image_en": "優質即磨咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "熱朱古力.png",
         "name_zh": "熱朱古力",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "熱朱古力",
-        "image_en": "熱朱古力.png"
+        "image_en": "熱朱古力.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "熱新鮮檸檬水.png",
         "name_zh": "熱新鮮檸檬水",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "熱新鮮檸檬水",
-        "image_en": "熱新鮮檸檬水.png"
+        "image_en": "熱新鮮檸檬水.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "汽水.png",
         "name_zh": "汽水",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "汽水",
-        "image_en": "汽水.png"
+        "image_en": "汽水.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "奶茶.png",
         "name_zh": "奶茶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "奶茶",
-        "image_en": "奶茶.png"
+        "image_en": "奶茶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "FUZE TEA® 蜂蜜梨茶.png",
         "name_zh": "FUZE TEA® 蜂蜜梨茶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "FUZE TEA® 蜂蜜梨茶",
-        "image_en": "FUZE TEA® 蜂蜜梨茶.png"
+        "image_en": "FUZE TEA® 蜂蜜梨茶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "港式奶茶.png",
         "name_zh": "港式奶茶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "港式奶茶",
-        "image_en": "港式奶茶.png"
+        "image_en": "港式奶茶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "Minute Maid® 橙汁.png",
         "name_zh": "Minute Maid® 橙汁",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "Minute Maid® 橙汁",
-        "image_en": "Minute Maid® 橙汁.png"
+        "image_en": "Minute Maid® 橙汁.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "鮮檸雪碧.png",
         "name_zh": "鮮檸雪碧",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "鮮檸雪碧",
-        "image_en": "鮮檸雪碧.png"
+        "image_en": "鮮檸雪碧.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "優質濃香咖啡.png",
         "name_zh": "優質濃香咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "優質濃香咖啡",
-        "image_en": "優質濃香咖啡.png"
+        "image_en": "優質濃香咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "凍港式奶茶.png",
         "name_zh": "凍港式奶茶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "凍港式奶茶",
-        "image_en": "凍港式奶茶.png"
+        "image_en": "凍港式奶茶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "凍新鮮檸檬茶.png",
         "name_zh": "凍新鮮檸檬茶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "凍新鮮檸檬茶",
-        "image_en": "凍新鮮檸檬茶.png"
+        "image_en": "凍新鮮檸檬茶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "高鈣低脂牛奶飲品.png",
         "name_zh": "高鈣低脂牛奶飲品",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "高鈣低脂牛奶飲品",
-        "image_en": "高鈣低脂牛奶飲品.png"
+        "image_en": "高鈣低脂牛奶飲品.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "凍優質濃香咖啡.png",
         "name_zh": "凍優質濃香咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "凍優質濃香咖啡",
-        "image_en": "凍優質濃香咖啡.png"
+        "image_en": "凍優質濃香咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "熱新鮮檸檬茶.png",
         "name_zh": "熱新鮮檸檬茶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飲品",
         "name_en": "熱新鮮檸檬茶",
-        "image_en": "熱新鮮檸檬茶.png"
+        "image_en": "熱新鮮檸檬茶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": true
+        
     },
     {
         "image_zh": "凱撒沙律.png",
         "name_zh": "凱撒沙律",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "沙律",
         "name_en": "凱撒沙律",
-        "image_en": "凱撒沙律.png"
+        "image_en": "凱撒沙律.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "芝蛋脆雞飽.png",
         "name_zh": "芝蛋脆雞飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值選",
         "name_en": "芝蛋脆雞飽",
-        "image_en": "芝蛋脆雞飽.png"
+        "image_en": "芝蛋脆雞飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "脆香雞翼 (2件).png",
         "name_zh": "脆香雞翼 (2件)",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值選",
         "name_en": "脆香雞翼 (2件)",
-        "image_en": "脆香雞翼 (2件).png"
+        "image_en": "脆香雞翼 (2件).png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "薯條(細).png",
         "name_zh": "薯條(細)",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值選",
         "name_en": "薯條(細)",
-        "image_en": "薯條(細).png"
+        "image_en": "薯條(細).png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "麥旋風.png",
         "name_zh": "麥旋風",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值選",
         "name_en": "麥旋風",
-        "image_en": "麥旋風.png"
+        "image_en": "麥旋風.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "汽水.png",
         "name_zh": "汽水",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值選",
         "name_en": "汽水",
-        "image_en": "汽水.png"
+        "image_en": "汽水.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "新地.png",
         "name_zh": "新地",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值選",
         "name_en": "新地",
-        "image_en": "新地.png"
+        "image_en": "新地.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "雞蛋漢堡飽.png",
         "name_zh": "雞蛋漢堡飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值選",
         "name_en": "雞蛋漢堡飽",
-        "image_en": "雞蛋漢堡飽.png"
+        "image_en": "雞蛋漢堡飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "蘋果批.png",
         "name_zh": "蘋果批",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值選",
         "name_en": "蘋果批",
-        "image_en": "蘋果批.png"
+        "image_en": "蘋果批.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "魚柳飽.png",
         "name_zh": "魚柳飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值選",
         "name_en": "魚柳飽",
-        "image_en": "魚柳飽.png"
+        "image_en": "魚柳飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "提子玉桂卷.png",
         "name_zh": "提子玉桂卷",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "提子玉桂卷",
-        "image_en": "提子玉桂卷.png"
+        "image_en": "提子玉桂卷.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "焦糖鮮奶咖啡.png",
         "name_zh": "焦糖鮮奶咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "焦糖鮮奶咖啡",
-        "image_en": "焦糖鮮奶咖啡.png"
+        "image_en": "焦糖鮮奶咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "特濃咖啡.png",
         "name_zh": "特濃咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "特濃咖啡",
-        "image_en": "特濃咖啡.png"
+        "image_en": "特濃咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "宇治抹茶珍珠鮮奶.png",
         "name_zh": "宇治抹茶珍珠鮮奶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "宇治抹茶珍珠鮮奶",
-        "image_en": "宇治抹茶珍珠鮮奶.png"
+        "image_en": "宇治抹茶珍珠鮮奶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "朱古力泡沫咖啡.png",
         "name_zh": "朱古力泡沫咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "朱古力泡沫咖啡",
-        "image_en": "朱古力泡沫咖啡.png"
+        "image_en": "朱古力泡沫咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "美式咖啡.png",
         "name_zh": "美式咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "美式咖啡",
-        "image_en": "美式咖啡.png"
+        "image_en": "美式咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "熱茶.png",
         "name_zh": "熱茶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "熱茶",
-        "image_en": "熱茶.png"
+        "image_en": "熱茶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凍意大利泡沫咖啡.png",
         "name_zh": "凍意大利泡沫咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "凍意大利泡沫咖啡",
-        "image_en": "凍意大利泡沫咖啡.png"
+        "image_en": "凍意大利泡沫咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凍阿華田®珍珠鮮奶.png",
         "name_zh": "凍阿華田®珍珠鮮奶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "凍阿華田®珍珠鮮奶",
-        "image_en": "凍阿華田®珍珠鮮奶.png"
+        "image_en": "凍阿華田®珍珠鮮奶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "鮮奶特濃咖啡.png",
         "name_zh": "鮮奶特濃咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "鮮奶特濃咖啡",
-        "image_en": "鮮奶特濃咖啡.png"
+        "image_en": "鮮奶特濃咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "牛角飽.png",
         "name_zh": "牛角飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "牛角飽",
-        "image_en": "牛角飽.png"
+        "image_en": "牛角飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "雞肉菠蘿意式飽.png",
         "name_zh": "雞肉菠蘿意式飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "雞肉菠蘿意式飽",
-        "image_en": "雞肉菠蘿意式飽.png"
+        "image_en": "雞肉菠蘿意式飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "藍莓芝士蛋糕.png",
         "name_zh": "藍莓芝士蛋糕",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "藍莓芝士蛋糕",
-        "image_en": "藍莓芝士蛋糕.png"
+        "image_en": "藍莓芝士蛋糕.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凍焦糖鮮奶咖啡.png",
         "name_zh": "凍焦糖鮮奶咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "凍焦糖鮮奶咖啡",
-        "image_en": "凍焦糖鮮奶咖啡.png"
+        "image_en": "凍焦糖鮮奶咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "沖繩黑糖X珍珠奶茶.png",
         "name_zh": "沖繩黑糖X珍珠奶茶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "沖繩黑糖X珍珠奶茶",
-        "image_en": "沖繩黑糖X珍珠奶茶.png"
+        "image_en": "沖繩黑糖X珍珠奶茶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凍沖繩黑糖X珍珠奶茶.png",
         "name_zh": "凍沖繩黑糖X珍珠奶茶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "凍沖繩黑糖X珍珠奶茶",
-        "image_en": "凍沖繩黑糖X珍珠奶茶.png"
+        "image_en": "凍沖繩黑糖X珍珠奶茶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "新餐肉芝味捲.png",
         "name_zh": "新餐肉芝味捲",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "新餐肉芝味捲",
-        "image_en": "新餐肉芝味捲.png"
+        "image_en": "新餐肉芝味捲.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "四季春.png",
         "name_zh": "四季春",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "四季春",
-        "image_en": "四季春.png"
+        "image_en": "四季春.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "火腿扒碎蛋芝味多士.png",
         "name_zh": "火腿扒碎蛋芝味多士",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "火腿扒碎蛋芝味多士",
-        "image_en": "火腿扒碎蛋芝味多士.png"
+        "image_en": "火腿扒碎蛋芝味多士.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凍美式咖啡.png",
         "name_zh": "凍美式咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "凍美式咖啡",
-        "image_en": "凍美式咖啡.png"
+        "image_en": "凍美式咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "菠蘿雞肉芝味捲.png",
         "name_zh": "菠蘿雞肉芝味捲",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "菠蘿雞肉芝味捲",
-        "image_en": "菠蘿雞肉芝味捲.png"
+        "image_en": "菠蘿雞肉芝味捲.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凍鮮奶咖啡.png",
         "name_zh": "凍鮮奶咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "凍鮮奶咖啡",
-        "image_en": "凍鮮奶咖啡.png"
+        "image_en": "凍鮮奶咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "黑糖全麥飽2件 (配忌廉芝士).png",
         "name_zh": "黑糖全麥飽2件 (配忌廉芝士)",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "黑糖全麥飽2件 (配忌廉芝士)",
-        "image_en": "黑糖全麥飽2件 (配忌廉芝士).png"
+        "image_en": "黑糖全麥飽2件 (配忌廉芝士).png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "新餐肉芝味薄餅.png",
         "name_zh": "新餐肉芝味薄餅",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "新餐肉芝味薄餅",
-        "image_en": "新餐肉芝味薄餅.png"
+        "image_en": "新餐肉芝味薄餅.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "曲奇妙趣芝士蛋糕.png",
         "name_zh": "曲奇妙趣芝士蛋糕",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "曲奇妙趣芝士蛋糕",
-        "image_en": "曲奇妙趣芝士蛋糕.png"
+        "image_en": "曲奇妙趣芝士蛋糕.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "榛子鮮奶咖啡.png",
         "name_zh": "榛子鮮奶咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "榛子鮮奶咖啡",
-        "image_en": "榛子鮮奶咖啡.png"
+        "image_en": "榛子鮮奶咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "奶醬厚多士.png",
         "name_zh": "奶醬厚多士",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "奶醬厚多士",
-        "image_en": "奶醬厚多士.png"
+        "image_en": "奶醬厚多士.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "意大利泡沫咖啡.png",
         "name_zh": "意大利泡沫咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "意大利泡沫咖啡",
-        "image_en": "意大利泡沫咖啡.png"
+        "image_en": "意大利泡沫咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "小龍蝦蛋沙律意式飽.png",
         "name_zh": "小龍蝦蛋沙律意式飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "小龍蝦蛋沙律意式飽",
-        "image_en": "小龍蝦蛋沙律意式飽.png"
+        "image_en": "小龍蝦蛋沙律意式飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凍豆奶抹茶.png",
         "name_zh": "凍豆奶抹茶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "凍豆奶抹茶",
-        "image_en": "凍豆奶抹茶.png"
+        "image_en": "凍豆奶抹茶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凍沖繩黑糖X珍珠四季春.png",
         "name_zh": "凍沖繩黑糖X珍珠四季春",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "凍沖繩黑糖X珍珠四季春",
-        "image_en": "凍沖繩黑糖X珍珠四季春.png"
+        "image_en": "凍沖繩黑糖X珍珠四季春.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凍朱古力泡沫咖啡.png",
         "name_zh": "凍朱古力泡沫咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "凍朱古力泡沫咖啡",
-        "image_en": "凍朱古力泡沫咖啡.png"
+        "image_en": "凍朱古力泡沫咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "雙重芝士牛角飽.png",
         "name_zh": "雙重芝士牛角飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "雙重芝士牛角飽",
-        "image_en": "雙重芝士牛角飽.png"
+        "image_en": "雙重芝士牛角飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "紐約芝士蛋糕.png",
         "name_zh": "紐約芝士蛋糕",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "紐約芝士蛋糕",
-        "image_en": "紐約芝士蛋糕.png"
+        "image_en": "紐約芝士蛋糕.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "阿華田® 泡沫脆脆.png",
         "name_zh": "阿華田® 泡沫脆脆",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "阿華田® 泡沫脆脆",
-        "image_en": "阿華田® 泡沫脆脆.png"
+        "image_en": "阿華田® 泡沫脆脆.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "豆奶抹茶.png",
         "name_zh": "豆奶抹茶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "豆奶抹茶",
-        "image_en": "豆奶抹茶.png"
+        "image_en": "豆奶抹茶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凍榛子鮮奶咖啡.png",
         "name_zh": "凍榛子鮮奶咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "凍榛子鮮奶咖啡",
-        "image_en": "凍榛子鮮奶咖啡.png"
+        "image_en": "凍榛子鮮奶咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "阿華田®珍珠鮮奶.png",
         "name_zh": "阿華田®珍珠鮮奶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "阿華田®珍珠鮮奶",
-        "image_en": "阿華田®珍珠鮮奶.png"
+        "image_en": "阿華田®珍珠鮮奶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "黑糖全麥飽2件 (配果醬).png",
         "name_zh": "黑糖全麥飽2件 (配果醬)",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "黑糖全麥飽2件 (配果醬)",
-        "image_en": "黑糖全麥飽2件 (配果醬).png"
+        "image_en": "黑糖全麥飽2件 (配果醬).png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "意式鮮奶咖啡.png",
         "name_zh": "意式鮮奶咖啡",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "意式鮮奶咖啡",
-        "image_en": "意式鮮奶咖啡.png"
+        "image_en": "意式鮮奶咖啡.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "特濃朱古力蛋糕.png",
         "name_zh": "特濃朱古力蛋糕",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "特濃朱古力蛋糕",
-        "image_en": "特濃朱古力蛋糕.png"
+        "image_en": "特濃朱古力蛋糕.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "菠蘿雞肉芝味薄餅.png",
         "name_zh": "菠蘿雞肉芝味薄餅",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "菠蘿雞肉芝味薄餅",
-        "image_en": "菠蘿雞肉芝味薄餅.png"
+        "image_en": "菠蘿雞肉芝味薄餅.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "新餐肉碎蛋芝味多士.png",
         "name_zh": "新餐肉碎蛋芝味多士",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "新餐肉碎蛋芝味多士",
-        "image_en": "新餐肉碎蛋芝味多士.png"
+        "image_en": "新餐肉碎蛋芝味多士.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凍宇治抹茶珍珠鮮奶.png",
         "name_zh": "凍宇治抹茶珍珠鮮奶",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "凍宇治抹茶珍珠鮮奶",
-        "image_en": "凍宇治抹茶珍珠鮮奶.png"
+        "image_en": "凍宇治抹茶珍珠鮮奶.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "蘑菇栗米芝味多士.png",
         "name_zh": "蘑菇栗米芝味多士",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "蘑菇栗米芝味多士",
-        "image_en": "蘑菇栗米芝味多士.png"
+        "image_en": "蘑菇栗米芝味多士.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "凍阿華田® 泡沫脆脆.png",
         "name_zh": "凍阿華田® 泡沫脆脆",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "McCafé",
         "name_en": "凍阿華田® 泡沫脆脆",
-        "image_en": "凍阿華田® 泡沫脆脆.png"
+        "image_en": "凍阿華田® 泡沫脆脆.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "煙肉蛋漢堡®.png",
         "name_zh": "煙肉蛋漢堡®",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "煙肉蛋漢堡®",
-        "image_en": "煙肉蛋漢堡®.png"
+        "image_en": "煙肉蛋漢堡®.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "芝蛋脆雞飽.png",
         "name_zh": "芝蛋脆雞飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "芝蛋脆雞飽",
-        "image_en": "芝蛋脆雞飽.png"
+        "image_en": "芝蛋脆雞飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "火腿扒芝士飽.png",
         "name_zh": "火腿扒芝士飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "火腿扒芝士飽",
-        "image_en": "火腿扒芝士飽.png"
+        "image_en": "火腿扒芝士飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "脆辣雞腿飽.png",
         "name_zh": "脆辣雞腿飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "脆辣雞腿飽",
-        "image_en": "脆辣雞腿飽.png"
+        "image_en": "脆辣雞腿飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "豬柳漢堡™.png",
         "name_zh": "豬柳漢堡™",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "豬柳漢堡™",
-        "image_en": "豬柳漢堡™.png"
+        "image_en": "豬柳漢堡™.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "雙層芝士孖堡™.png",
         "name_zh": "雙層芝士孖堡™",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "雙層芝士孖堡™",
-        "image_en": "雙層芝士孖堡™.png"
+        "image_en": "雙層芝士孖堡™.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "巨無霸®.png",
         "name_zh": "巨無霸®",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "巨無霸®",
-        "image_en": "巨無霸®.png"
+        "image_en": "巨無霸®.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "板燒雞腿飽.png",
         "name_zh": "板燒雞腿飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "板燒雞腿飽",
-        "image_en": "板燒雞腿飽.png"
+        "image_en": "板燒雞腿飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "麥芝蛋飽.png",
         "name_zh": "麥芝蛋飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "麥芝蛋飽",
-        "image_en": "麥芝蛋飽.png"
+        "image_en": "麥芝蛋飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "魚柳飽.png",
         "name_zh": "魚柳飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "魚柳飽",
-        "image_en": "魚柳飽.png"
+        "image_en": "魚柳飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "漢堡飽.png",
         "name_zh": "漢堡飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "漢堡飽",
-        "image_en": "漢堡飽.png"
+        "image_en": "漢堡飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "芝士漢堡飽.png",
         "name_zh": "芝士漢堡飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "芝士漢堡飽",
-        "image_en": "芝士漢堡飽.png"
+        "image_en": "芝士漢堡飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "豬柳蛋漢堡™.png",
         "name_zh": "豬柳蛋漢堡™",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "飽類",
         "name_en": "豬柳蛋漢堡™",
-        "image_en": "豬柳蛋漢堡™.png"
+        "image_en": "豬柳蛋漢堡™.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": false,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "煙肉蛋漢堡®.png",
         "name_zh": "煙肉蛋漢堡®",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "煙肉蛋漢堡®",
-        "image_en": "煙肉蛋漢堡®.png"
+        "image_en": "煙肉蛋漢堡®.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "醒神超值選 - 芝蛋脆雞飽.png",
         "name_zh": "醒神超值選 - 芝蛋脆雞飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "醒神超值選 - 芝蛋脆雞飽",
-        "image_en": "醒神超值選 - 芝蛋脆雞飽.png"
+        "image_en": "醒神超值選 - 芝蛋脆雞飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "火腿扒芝士飽.png",
         "name_zh": "火腿扒芝士飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "火腿扒芝士飽",
-        "image_en": "火腿扒芝士飽.png"
+        "image_en": "火腿扒芝士飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "醒神超值選 - 麥芝蛋飽.png",
         "name_zh": "醒神超值選 - 麥芝蛋飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "醒神超值選 - 麥芝蛋飽",
-        "image_en": "醒神超值選 - 麥芝蛋飽.png"
+        "image_en": "醒神超值選 - 麥芝蛋飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "豬柳漢堡™.png",
         "name_zh": "豬柳漢堡™",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "豬柳漢堡™",
-        "image_en": "豬柳漢堡™.png"
+        "image_en": "豬柳漢堡™.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "醒神超值選 - 豬柳漢堡™.png",
         "name_zh": "醒神超值選 - 豬柳漢堡™",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "醒神超值選 - 豬柳漢堡™",
-        "image_en": "醒神超值選 - 豬柳漢堡™.png"
+        "image_en": "醒神超值選 - 豬柳漢堡™.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "醒神超值選 - 火腿扒芝士飽.png",
         "name_zh": "醒神超值選 - 火腿扒芝士飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "醒神超值選 - 火腿扒芝士飽",
-        "image_en": "醒神超值選 - 火腿扒芝士飽.png"
+        "image_en": "醒神超值選 - 火腿扒芝士飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "豬柳蛋扭扭粉.png",
         "name_zh": "豬柳蛋扭扭粉",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "豬柳蛋扭扭粉",
-        "image_en": "豬柳蛋扭扭粉.png"
+        "image_en": "豬柳蛋扭扭粉.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "醒神超值選 - 豬柳蛋漢堡™.png",
         "name_zh": "醒神超值選 - 豬柳蛋漢堡™",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "醒神超值選 - 豬柳蛋漢堡™",
-        "image_en": "醒神超值選 - 豬柳蛋漢堡™.png"
+        "image_en": "醒神超值選 - 豬柳蛋漢堡™.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "精選早晨套餐.png",
         "name_zh": "精選早晨套餐",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "精選早晨套餐",
-        "image_en": "精選早晨套餐.png"
+        "image_en": "精選早晨套餐.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "熱香餅精選套餐.png",
         "name_zh": "熱香餅精選套餐",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "熱香餅精選套餐",
-        "image_en": "熱香餅精選套餐.png"
+        "image_en": "熱香餅精選套餐.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "醒神超值選 -魚柳飽.png",
         "name_zh": "醒神超值選 -魚柳飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "醒神超值選 -魚柳飽",
-        "image_en": "醒神超值選 -魚柳飽.png"
+        "image_en": "醒神超值選 -魚柳飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "魚柳飽.png",
         "name_zh": "魚柳飽",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "魚柳飽",
-        "image_en": "魚柳飽.png"
+        "image_en": "魚柳飽.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "板燒雞腿扭扭粉.png",
         "name_zh": "板燒雞腿扭扭粉",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "板燒雞腿扭扭粉",
-        "image_en": "板燒雞腿扭扭粉.png"
+        "image_en": "板燒雞腿扭扭粉.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "珍寶套餐.png",
         "name_zh": "珍寶套餐",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "珍寶套餐",
-        "image_en": "珍寶套餐.png"
+        "image_en": "珍寶套餐.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "豬柳蛋漢堡™.png",
         "name_zh": "豬柳蛋漢堡™",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "豬柳蛋漢堡™",
-        "image_en": "豬柳蛋漢堡™.png"
+        "image_en": "豬柳蛋漢堡™.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "火腿扒蛋扭扭粉.png",
         "name_zh": "火腿扒蛋扭扭粉",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "超值早晨套餐",
         "name_en": "火腿扒蛋扭扭粉",
-        "image_en": "火腿扒蛋扭扭粉.png"
+        "image_en": "火腿扒蛋扭扭粉.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": true,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "豬柳蛋扭扭粉.png",
         "name_zh": "豬柳蛋扭扭粉",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "早晨拼盤及扭扭粉",
         "name_en": "豬柳蛋扭扭粉",
-        "image_en": "豬柳蛋扭扭粉.png"
+        "image_en": "豬柳蛋扭扭粉.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "精選早晨套餐.png",
         "name_zh": "精選早晨套餐",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "早晨拼盤及扭扭粉",
         "name_en": "精選早晨套餐",
-        "image_en": "精選早晨套餐.png"
+        "image_en": "精選早晨套餐.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "熱香餅精選套餐.png",
         "name_zh": "熱香餅精選套餐",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "早晨拼盤及扭扭粉",
         "name_en": "熱香餅精選套餐",
-        "image_en": "熱香餅精選套餐.png"
+        "image_en": "熱香餅精選套餐.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "板燒雞腿扭扭粉.png",
         "name_zh": "板燒雞腿扭扭粉",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "早晨拼盤及扭扭粉",
         "name_en": "板燒雞腿扭扭粉",
-        "image_en": "板燒雞腿扭扭粉.png"
+        "image_en": "板燒雞腿扭扭粉.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "珍寶套餐.png",
         "name_zh": "珍寶套餐",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "早晨拼盤及扭扭粉",
         "name_en": "珍寶套餐",
-        "image_en": "珍寶套餐.png"
+        "image_en": "珍寶套餐.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     },
     {
         "image_zh": "火腿扒蛋扭扭粉.png",
         "name_zh": "火腿扒蛋扭扭粉",
-        "meal_price": 0,
-        "price": 0,
         "catalog": "早晨拼盤及扭扭粉",
         "name_en": "火腿扒蛋扭扭粉",
-        "image_en": "火腿扒蛋扭扭粉.png"
+        "image_en": "火腿扒蛋扭扭粉.png",
+        "price": 0,
+        "meal_price": 0,
+        "is_breakfasts": true,
+        "is_set_meal": false,
+        "is_set_option": false,
+        "is_set_drink": false
+        
     }
 ]

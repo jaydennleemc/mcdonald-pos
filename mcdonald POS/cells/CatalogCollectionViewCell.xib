@@ -57,6 +57,7 @@
             <connections>
                 <outlet property="cell_image" destination="dyS-ik-007" id="XZO-Wh-YS1"/>
                 <outlet property="cell_text" destination="U5v-uX-aQj" id="bu5-Gg-FPY"/>
+                <outlet property="container" destination="tN0-U4-x8k" id="qyn-xT-JBB"/>
             </connections>
             <point key="canvasLocation" x="227.536231884058" y="107.8125"/>
         </collectionViewCell>
