@@ -654,13 +654,65 @@
                     <view key="view" contentMode="scaleToFill" id="xHw-bt-c8z">
                         <rect key="frame" x="0.0" y="0.0" width="1133" height="744"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9CH-KQ-ynX">
+                                <rect key="frame" x="0.0" y="24" width="1133" height="50"/>
+                                <items>
+                                    <navigationItem title="Payment" id="Zt1-ow-ARo"/>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="dEB-3Y-5oX">
+                                <rect key="frame" x="0.0" y="74" width="1133" height="650"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PaymentTableViewCellId" id="X7P-RD-OpP" customClass="PaymentTableViewCell" customModule="mcdonald_POS" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="1133" height="100.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X7P-RD-OpP" id="WVG-SJ-oN9">
+                                            <rect key="frame" x="0.0" y="0.0" width="1133" height="100.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visapay" translatesAutoresizingMaskIntoConstraints="NO" id="uj1-Wl-dZe">
+                                                    <rect key="frame" x="0.0" y="0.0" width="1133" height="100.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="100" id="QIW-gD-eMC"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="uj1-Wl-dZe" firstAttribute="leading" secondItem="WVG-SJ-oN9" secondAttribute="leading" id="74U-LE-sWh"/>
+                                                <constraint firstItem="uj1-Wl-dZe" firstAttribute="top" secondItem="WVG-SJ-oN9" secondAttribute="top" id="HBh-4d-gvH"/>
+                                                <constraint firstAttribute="bottom" secondItem="uj1-Wl-dZe" secondAttribute="bottom" id="KAF-W8-bJ0"/>
+                                                <constraint firstAttribute="trailing" secondItem="uj1-Wl-dZe" secondAttribute="trailing" id="QNf-pY-5dq"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cell_image" destination="uj1-Wl-dZe" id="Kg4-z9-ma3"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Hhq-HP-4fD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hhq-HP-4fD" firstAttribute="bottom" secondItem="dEB-3Y-5oX" secondAttribute="bottom" id="CPw-bH-dtM"/>
+                            <constraint firstItem="9CH-KQ-ynX" firstAttribute="top" secondItem="Hhq-HP-4fD" secondAttribute="top" id="J5A-2W-4dD"/>
+                            <constraint firstItem="9CH-KQ-ynX" firstAttribute="leading" secondItem="xHw-bt-c8z" secondAttribute="leading" id="Ym5-3v-Mum"/>
+                            <constraint firstItem="dEB-3Y-5oX" firstAttribute="top" secondItem="9CH-KQ-ynX" secondAttribute="bottom" id="cUw-Bf-5zh"/>
+                            <constraint firstItem="dEB-3Y-5oX" firstAttribute="leading" secondItem="Hhq-HP-4fD" secondAttribute="leading" id="dhe-ym-GYR"/>
+                            <constraint firstItem="Hhq-HP-4fD" firstAttribute="trailing" secondItem="dEB-3Y-5oX" secondAttribute="trailing" id="hka-7j-9dt"/>
+                            <constraint firstItem="Hhq-HP-4fD" firstAttribute="trailing" secondItem="9CH-KQ-ynX" secondAttribute="trailing" id="u9I-2R-FF9"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="dEB-3Y-5oX" id="5CP-sY-oT7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WqJ-8h-KNT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3330" y="272"/>
+            <point key="canvasLocation" x="3329.6557811120915" y="271.77419354838707"/>
         </scene>
     </scenes>
     <resources>
@@ -668,6 +720,7 @@
         <image name="mcdonalds_logo" width="2272" height="1704"/>
         <image name="person.circle.fill" catalog="system" width="128" height="121"/>
         <image name="trash" catalog="system" width="121" height="128"/>
+        <image name="visapay" width="203" height="143"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

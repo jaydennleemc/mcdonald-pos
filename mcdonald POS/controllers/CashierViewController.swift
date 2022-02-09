@@ -57,7 +57,9 @@ class CashierViewController: UIViewController {
     }
     
     @IBAction func paymentOnPress(_ sender: Any) {
-        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "PaymentViewController") as! PaymentViewController
+//        vc.isModalInPresentation = true
+        self.present(vc, animated: true, completion: nil)
     }
 }
 
