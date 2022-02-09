@@ -40,6 +40,7 @@
 		8BD8A69F27B2BECC004EB9D6 /* MealDrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD8A69E27B2BECC004EB9D6 /* MealDrinkViewController.swift */; };
 		8BD8A6A127B3679D004EB9D6 /* BillItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD8A6A027B3679D004EB9D6 /* BillItem.swift */; };
 		8BD8A6A327B374AA004EB9D6 /* MealPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD8A6A227B374AA004EB9D6 /* MealPopoverViewController.swift */; };
+		8BD8A6A527B380BE004EB9D6 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD8A6A427B380BE004EB9D6 /* PaymentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		8BD8A69E27B2BECC004EB9D6 /* MealDrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDrinkViewController.swift; sourceTree = "<group>"; };
 		8BD8A6A027B3679D004EB9D6 /* BillItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillItem.swift; sourceTree = "<group>"; };
 		8BD8A6A227B374AA004EB9D6 /* MealPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPopoverViewController.swift; sourceTree = "<group>"; };
+		8BD8A6A427B380BE004EB9D6 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				8BD8A69C27B2BEC0004EB9D6 /* MealOptionViewController.swift */,
 				8BD8A69E27B2BECC004EB9D6 /* MealDrinkViewController.swift */,
 				8BD8A6A227B374AA004EB9D6 /* MealPopoverViewController.swift */,
+				8BD8A6A427B380BE004EB9D6 /* PaymentViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				8B7C3D9627B26C1B00246CD3 /* Food.swift in Sources */,
 				8B876C7E27AE3A10006BAC99 /* Extension.swift in Sources */,
 				8B876C4927AD8CAC006BAC99 /* SceneDelegate.swift in Sources */,
+				8BD8A6A527B380BE004EB9D6 /* PaymentViewController.swift in Sources */,
 				8B876C7B27AE3610006BAC99 /* SettingsViewController.swift in Sources */,
 				8B876C5F27AD8D26006BAC99 /* LoginViewController.swift in Sources */,
 				8BD8A69F27B2BECC004EB9D6 /* MealDrinkViewController.swift in Sources */,

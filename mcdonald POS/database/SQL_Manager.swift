@@ -47,7 +47,7 @@ class SQLManager{
     }
     
     func fetchUsers() throws -> Array<Any>{
-        let users = Table("users")
+        let users = Table("user")
         var data = Array<Any>()
         for row in try sqlDB!.prepare(users) {
             data.append(row)

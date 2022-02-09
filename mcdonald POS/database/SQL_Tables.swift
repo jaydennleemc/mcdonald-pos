@@ -101,7 +101,7 @@ class SQLTables {
     }
     
     public static func drop_user_table(db: Connection) throws {
-        let users = Table("users")
+        let users = Table("user")
         try db.run(users.drop(ifExists: true))
     }
     

@@ -21,7 +21,7 @@ class SQLData {
                     let password = json["password"].string!.md5Value
                     let role = json["role"].string!
                     let insert = """
-                        INSERT INTO "users" ("username", "password", "role", "lastTime") VALUES ('\(username)', '\(password)', '\(role)', '\(Date())')
+                        INSERT INTO "user" ("username", "password", "role", "lastTime") VALUES ('\(username)', '\(password)', '\(role)', '\(Date())')
                     """
                     try db.run(insert)
                     debugPrint("insert user success")
