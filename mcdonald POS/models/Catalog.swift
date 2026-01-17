@@ -7,12 +7,11 @@
 
 import Foundation
 
-struct Catalog {
+struct Catalog: Identifiable, Codable {
     var id: Int64
     var name_zh: String
     var name_en: String
     var image_zh: String
     var image_en: String
     var position: Int64
-    var selected: Bool = false
 }

@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01EE6747A4DDEC3449E6F318 /* BillItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B9B23C4D2BF470305C818E /* BillItem.swift */; };
+		0AF3FA80EF1E1EC84E35E224 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34D1E66D266F8B5DB660C7 /* AuthViewModel.swift */; };
+		0C89C9DC65905B41665545FD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A579D6A47678C2C694618 /* SettingsView.swift */; };
+		10C0BE85810A947EC9D1DBC3 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C6B2444F09DC12AC12288D /* Catalog.swift */; };
+		1FC9FC993B4321074A8895A4 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = EF89DDD24340B414A6E357D8 /* SwiftyJSON */; };
+		28BB48814041179FE3685448 /* McDonaldPOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720B2B4456C01D949DCBA83 /* McDonaldPOSApp.swift */; };
+		3131EA0B6A66F3D48865D6E7 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D4929E46F5BE48D5E64FAE /* CartViewModel.swift */; };
+		3A9B937ECC921C8823B4C46F /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5A5E4CAA905AEE6C0A7AA6 /* DatabaseManager.swift */; };
+		3C0F3432BF95CDFD67AE832B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926D433206277093AF056038 /* Assets.xcassets */; };
+		4468584D8BB1FAD3824C4E10 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89905B8F3D43A4BF258ACB2 /* CartView.swift */; };
+		56F8290B1021CF0893DB500D /* catalogs.json in Resources */ = {isa = PBXBuildFile; fileRef = FA3577E8EC5E1B0ACF71DC41 /* catalogs.json */; };
+		70B7910AE77BDA3738D39645 /* SwiftUIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8123A132657F45750C045E /* SwiftUIExtensions.swift */; };
+		7679002CAE98CBC40A51EE8A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE950C4DA8193C2F31FC9B3 /* LoginView.swift */; };
+		9118C758761FB8A6CA00CC41 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 8F3F772B2E5E2C5FDD2A226A /* Toast */; };
+		A755E7EE815664FD9BB42A75 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 4BECA7F5B394DEA53CD717BE /* SQLite */; };
+		AB0497939EE552F5D2821200 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4B404E211E8CA6869F0FA /* Food.swift */; };
+		C43A04BB7EAC0722037E8BBF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D92973BBD90038B9DB4B099 /* User.swift */; };
+		D0A4EAB9846137E6ACEFA983 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 6711A0D7510BE4DF65997455 /* users.json */; };
+		D7EEF4537081C88CA753DB94 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C09AE747C7A8B6FCCAA48D9 /* StringExtensions.swift */; };
+		E07DB875EA9F9AECC1229CB1 /* foods.json in Resources */ = {isa = PBXBuildFile; fileRef = ABDA0DE5171E66B5458BB904 /* foods.json */; };
+		E50ADECE95939887F9BF9B03 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF530909585EB36D1FE384E /* CatalogView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FFB5B9BBFE435FAD8405A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		28D4929E46F5BE48D5E64FAE /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		2D92973BBD90038B9DB4B099 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3FE4B404E211E8CA6869F0FA /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		43C6B2444F09DC12AC12288D /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		515A579D6A47678C2C694618 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		53B9B23C4D2BF470305C818E /* BillItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillItem.swift; sourceTree = "<group>"; };
+		5B34D1E66D266F8B5DB660C7 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		6711A0D7510BE4DF65997455 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		6C09AE747C7A8B6FCCAA48D9 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		7A04AEC806B2E439623BB396 /* McDonaldPOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = McDonaldPOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8720B2B4456C01D949DCBA83 /* McDonaldPOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McDonaldPOSApp.swift; sourceTree = "<group>"; };
+		926D433206277093AF056038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAE950C4DA8193C2F31FC9B3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ABDA0DE5171E66B5458BB904 /* foods.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = foods.json; sourceTree = "<group>"; };
+		CC5A5E4CAA905AEE6C0A7AA6 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		DDF530909585EB36D1FE384E /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		E89905B8F3D43A4BF258ACB2 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		ED8123A132657F45750C045E /* SwiftUIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExtensions.swift; sourceTree = "<group>"; };
+		FA3577E8EC5E1B0ACF71DC41 /* catalogs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = catalogs.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		735241F74495BC64D83D0246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A755E7EE815664FD9BB42A75 /* SQLite in Frameworks */,
+				1FC9FC993B4321074A8895A4 /* SwiftyJSON in Frameworks */,
+				9118C758761FB8A6CA00CC41 /* Toast in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40431690EC96D8B488F17CDB /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				FA3577E8EC5E1B0ACF71DC41 /* catalogs.json */,
+				ABDA0DE5171E66B5458BB904 /* foods.json */,
+				6711A0D7510BE4DF65997455 /* users.json */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		64E77D9FD20092FA2FEFB5EA = {
+			isa = PBXGroup;
+			children = (
+				F271C03FD3344C9579CF1226 /* mcdonald POS */,
+				FF81B3ECAD061E6159D0D8EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A03650F8E555321C7710E1A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E89905B8F3D43A4BF258ACB2 /* CartView.swift */,
+				DDF530909585EB36D1FE384E /* CatalogView.swift */,
+				AAE950C4DA8193C2F31FC9B3 /* LoginView.swift */,
+				515A579D6A47678C2C694618 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0717EFC392613BA5383A473 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5B34D1E66D266F8B5DB660C7 /* AuthViewModel.swift */,
+				28D4929E46F5BE48D5E64FAE /* CartViewModel.swift */,
+				CC5A5E4CAA905AEE6C0A7AA6 /* DatabaseManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EAAC2C9C70874BFA9DBF1CFD /* models */ = {
+			isa = PBXGroup;
+			children = (
+				53B9B23C4D2BF470305C818E /* BillItem.swift */,
+				43C6B2444F09DC12AC12288D /* Catalog.swift */,
+				3FE4B404E211E8CA6869F0FA /* Food.swift */,
+				2D92973BBD90038B9DB4B099 /* User.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		F271C03FD3344C9579CF1226 /* mcdonald POS */ = {
+			isa = PBXGroup;
+			children = (
+				926D433206277093AF056038 /* Assets.xcassets */,
+				1FFB5B9BBFE435FAD8405A3C /* Info.plist */,
+				8720B2B4456C01D949DCBA83 /* McDonaldPOSApp.swift */,
+				6C09AE747C7A8B6FCCAA48D9 /* StringExtensions.swift */,
+				ED8123A132657F45750C045E /* SwiftUIExtensions.swift */,
+				40431690EC96D8B488F17CDB /* mock */,
+				EAAC2C9C70874BFA9DBF1CFD /* models */,
+				C0717EFC392613BA5383A473 /* ViewModels */,
+				A03650F8E555321C7710E1A5 /* Views */,
+			);
+			path = "mcdonald POS";
+			sourceTree = "<group>";
+		};
+		FF81B3ECAD061E6159D0D8EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A04AEC806B2E439623BB396 /* McDonaldPOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		996F616AF867A68A4F65A929 /* McDonaldPOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA33769B68153CA710076C2 /* Build configuration list for PBXNativeTarget "McDonaldPOS" */;
+			buildPhases = (
+				BC52057405D6B01E87E77D8C /* Sources */,
+				B7DE2FB21F4E45F32B26DAD1 /* Resources */,
+				735241F74495BC64D83D0246 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = McDonaldPOS;
+			packageProductDependencies = (
+				4BECA7F5B394DEA53CD717BE /* SQLite */,
+				EF89DDD24340B414A6E357D8 /* SwiftyJSON */,
+				8F3F772B2E5E2C5FDD2A226A /* Toast */,
+			);
+			productName = McDonaldPOS;
+			productReference = 7A04AEC806B2E439623BB396 /* McDonaldPOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85602A07764B9E8C4839290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = F4AC995DFFACFCDBEA16280C /* Build configuration list for PBXProject "McDonaldPOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 64E77D9FD20092FA2FEFB5EA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C1790BF02B75970AA28D2F3D /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+				8DB3054DAAA4F65200A632CC /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				AB45DD7B660FF99155A34092 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				996F616AF867A68A4F65A929 /* McDonaldPOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7DE2FB21F4E45F32B26DAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0F3432BF95CDFD67AE832B /* Assets.xcassets in Resources */,
+				56F8290B1021CF0893DB500D /* catalogs.json in Resources */,
+				E07DB875EA9F9AECC1229CB1 /* foods.json in Resources */,
+				D0A4EAB9846137E6ACEFA983 /* users.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC52057405D6B01E87E77D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF3FA80EF1E1EC84E35E224 /* AuthViewModel.swift in Sources */,
+				01EE6747A4DDEC3449E6F318 /* BillItem.swift in Sources */,
+				4468584D8BB1FAD3824C4E10 /* CartView.swift in Sources */,
+				3131EA0B6A66F3D48865D6E7 /* CartViewModel.swift in Sources */,
+				10C0BE85810A947EC9D1DBC3 /* Catalog.swift in Sources */,
+				E50ADECE95939887F9BF9B03 /* CatalogView.swift in Sources */,
+				3A9B937ECC921C8823B4C46F /* DatabaseManager.swift in Sources */,
+				AB0497939EE552F5D2821200 /* Food.swift in Sources */,
+				7679002CAE98CBC40A51EE8A /* LoginView.swift in Sources */,
+				28BB48814041179FE3685448 /* McDonaldPOSApp.swift in Sources */,
+				0C89C9DC65905B41665545FD /* SettingsView.swift in Sources */,
+				D7EEF4537081C88CA753DB94 /* StringExtensions.swift in Sources */,
+				70B7910AE77BDA3738D39645 /* SwiftUIExtensions.swift in Sources */,
+				C43A04BB7EAC0722037E8BBF /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		417717FF759108E956853712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "mcdonald POS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayyyden.McDonaldPOS;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		51B00A12BD4E600C548A0426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C894BC92FE1EAEB015B88D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "mcdonald POS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayyyden.McDonaldPOS;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D2854E8B3B2EFA36AA8B7FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA33769B68153CA710076C2 /* Build configuration list for PBXNativeTarget "McDonaldPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C894BC92FE1EAEB015B88D9A /* Debug */,
+				417717FF759108E956853712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4AC995DFFACFCDBEA16280C /* Build configuration list for PBXProject "McDonaldPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B00A12BD4E600C548A0426 /* Debug */,
+				D2854E8B3B2EFA36AA8B7FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8DB3054DAAA4F65200A632CC /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		AB45DD7B660FF99155A34092 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C1790BF02B75970AA28D2F3D /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4BECA7F5B394DEA53CD717BE /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1790BF02B75970AA28D2F3D /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+		8F3F772B2E5E2C5FDD2A226A /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB45DD7B660FF99155A34092 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		EF89DDD24340B414A6E357D8 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DB3054DAAA4F65200A632CC /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A85602A07764B9E8C4839290 /* Project object */;
+}
